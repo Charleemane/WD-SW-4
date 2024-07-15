@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/Charleemane/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/frieren-beyond-journeys-end-anime-has-ended-what-was-your-v0-3vv9ko0uqxpc1.webp" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 4</h3>
@@ -59,18 +59,14 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Frieren: Beyond Journey's End Themed SW#4
+This project is about designing features for a product or service.
+My project features the award winning anime, Frieren: Beyond Journey's End.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Single Page Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +113,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| pngwing | logo pngs | trykolang.com |
+| Create a Website With Video Background, HTML & CSS | reference code | https://youtu.be/8MgpE2DTTKA?si=TuO6dFfCz2kK6aKa |
