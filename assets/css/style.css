@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css2?family=Lancelot&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    min-height: 300dvh;
+}
+
+.showcase {
+    position: relative;
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        background-image: linear-gradient(to top, #000000, #0c0c0c, #141414, #1b1b1b, #212121);
+        
+        width: auto;
+        height: 10dvh;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s ease;
+        
+        p {
+            transition: 0.5s ease;
+            font-family: "Lancelot";
+            color: white;
+        }
+        
+        &:hover {
+            filter: none;
+            transform: scale(1.1);
+            p {
+                transform: scale(1.4);
+            }
+        }
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%
+      }
+    
+    .mpv {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100dvh;
+        object-fit: cover;
+        opacity: 0.8;
+    }
+    .overlay {
+        width: auto;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.537);
+        position: absolute;
+        top: 50%;
+        left: 39%;
+        padding: 10px;
+    }
+}
+
+
+.awards {
+    width: 100%;
+    height: 50dvh;
+    background-image: linear-gradient(to bottom, #000000, #000, #12040d, #180a1a, #151128, #001937);
+    /*outline: 2px;
+    outline-color: white;
+    outline-style: double;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    h1 {
+        color: white;
+    }
+    
+    .img-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    img {
+        width: 15%;
+        height: 90%;
+        transition: 0.5s ease-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.marketing {
+    width: 100%;
+    height: 100dvh;
+    background-image: linear-gradient(to bottom, #001937, #002146, #002855, #023064, #063874);
+
+    .up {
+        width: 100%;
+        height: 50%;
+        padding-right: 5rem;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5rem;
+
+        p {
+            font-family: "Lancelot";
+            font-size: 16pt;
+            font-weight: 700;
+            color: white;
+        }
+
+        img {
+            width: 40%;
+            height: 90%;
+        }
+    }
+
+    .down {
+        width: 100%;
+        height: 50%;
+        padding-left: 5rem;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5rem;
+
+        img {
+            width: 40%;
+            height: 90%;
+        }
+
+        p {
+            font-family: "Lancelot";
+            font-size: 20pt;
+            font-weight: 700;
+            color: white;
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 50dvh;
+
+    .up {
+        width: 100%;
+        height: 50%;
+        background-image: linear-gradient(to bottom, #063874, #063874, #033e82, #004490, #00499e, #004fad);
+
+        display: flex;
+        justify-content: center;
+        padding-top: 5em;
+        gap: 1rem;
+
+        p {
+            color: white;
+            font-weight: 700;
+        }
+        img {
+            width: 10%;
+            height: 50%;
+        }
+    }
+
+    .down {
+        width: 100%;
+        height: 50%;
+        background-image: linear-gradient(to bottom, #004fad, #1559ae, #2763ae, #366cae, #4675ad);
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        .overlay {
+            width: 100%;
+            height: 20%;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 2px;
+            transition: 0.3s ease-in;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            &:not(:hover) {
+                opacity: 0.2;
+            }
+        }
+    }
+}
