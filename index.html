@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seatwork 4</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script>
-        console.log("inside html file");
-    </script>
     <link href="https://fonts.googleapis.com/css2?family=Lancelot&display=swap" rel="stylesheet">
     <link
         rel="stylesheet"
@@ -16,10 +13,11 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
     />
+    <script type="text/javascript" src="./assets/js/script.js"></script>
 </head>
 <body>
     <section class="showcase">
-        <div class="header" id="myHeader">
+        <div class="header">
             <p>Watch</p>
         </div>
         <div class="overlay"><h1>Frieren: Beyond Journey's End</h1></div>
@@ -28,11 +26,13 @@
     <div class="awards">
         <h1>AWARDS</h1>
         <div class="img-container">
-            <img src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-0q5litybekkc1.webp" alt="">
-            <img src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-hhljyxwbekkc1.webp" alt="">
-            <img src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-sflg34sbekkc1.webp" alt="">
-            <img src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-w08b8m0cekkc1.webp" alt="">
-            <img src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-zwn2f32cekkc1.webp" alt="">
+            <img onclick="clickImg()" src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-0q5litybekkc1.webp" alt="" id="myImg">
+            <img onclick="clickImg()" src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-hhljyxwbekkc1.webp" alt=" "id="myImg">
+            <img onclick="clickImg()" src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-sflg34sbekkc1.webp" alt=" "id="myImg">
+        </div>
+        <div class="img-container-2">
+            <img onclick="clickImg()" src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-w08b8m0cekkc1.webp" alt="" id="myImg">
+            <img onclick="clickImg()" src="./assets/img/congratulations-to-frieren-beyond-journeys-end-for-winning-v0-zwn2f32cekkc1.webp" alt="" id="myImg">
         </div>
     </div>
     <div class="marketing">
@@ -58,7 +58,5 @@
             </div>
         </div>
     </div>
-    
-    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
