@@ -4,12 +4,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: 1px white dotted;
+    /*outline: 1px rgb(0, 0, 0) dotted;*/
 }
 
 body, html {
-    height: 100dvh;
-    background-image: linear-gradient(to bottom, #001937, #002146, #002855, #023064, #063874);
+    height: 200dvh;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.column-1 {
+    width: 98.5%;
+    height: 50%;
+
+    margin: 10px;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2) inset,
+    -10px -10px 10px white inset;
 }
 
 .row-1 {
@@ -22,9 +32,14 @@ body, html {
 
     a {
         text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-family: "Lancelot";
+        color: #212121;
         font-size: 14pt;
+        font-weight: 700;
+        transition: 0.5s ease;
+
+        &:hover {
+            transform: scale(0.9);
+        }
     }
 }
 
@@ -34,84 +49,133 @@ body, html {
 
     display: flex;
     gap: 1rem;
+
     position: relative;
 
         .img-container-1 {
             width: 20%;
             height: auto;
             position: absolute;
+            top: 8%;
             left: 10%;
 
-            &:not(:hover) {
+            &:hover {
                 .content-1 {
-                    opacity: 0;
+                    opacity: 0.9;
+                }
+
+                .img-1 {
+                    transform: translateX(-2rem);
+                    filter: drop-shadow(-10px -5px 0px #cf3f3f);
                 }
             }
 
             .img-1 {
                 width: 100%;
                 height: auto;
-                transition: 0.5s ease;
+                transition: 1s ease-in-out;
+            }
+        }
+
+        .img-container-2 {
+            width: 18%;
+            height: auto;
+            position: absolute;
+            top: 5%;
+            left: 40%;
+
+            &:hover {
+                .content-2 {
+                    opacity: 0.9;
+                }
+
+                .img-2 {
+                    transform: translateX(-2rem);
+                    filter: drop-shadow(10px -5px 0px #984cc1);
+                }
+            }
+
+            .img-2 {
+                width: 100%;
+                height: auto;
+                transition: 1s ease-in-out;
+
                 &:hover {
-                    transform: translateX(-8px);
+                    transform: translateX(-2rem);
                 }
             }
         }
 
-
-        .img-2 {
+        .img-container-3 {
             width: 18%;
             height: auto;
             position: absolute;
-
-            left: 40%;
-            transition: 0.5s ease;
-
-            &:hover {
-                transform: translateX(-8px);
-            }
-        }
-
-        .img-3 {
-            width: 18%;
-            height: auto;
-            position: absolute;
-
+            top: 10%;
             left: 70%;
-            transition: 0.5s ease;
 
             &:hover {
-                transform: translateX(-8px);
+                .content-3 {
+                    opacity: 0.9;
+                }
+
+                .img-3 {
+                    transform: translateX(-2rem);
+                    filter: drop-shadow(-5px 5px 0px #cdb666);
+                }
+            }
+
+            .img-3 {
+                width: 100%;
+                height: auto;
+                transition: 1s ease-in-out;
+
+                &:hover {
+                    transform: translateX(-2rem);
+                }
             }
         }
 
         .content-1, .content-2, .content-3 {
-            width: 20%;
+            width: 80%;
             height: auto;
-            background-color: whitesmoke;
+            background-color: #ededed;
+            border-radius: 5px;
 
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            opacity: 0;
+            transition: 1s ease;
+            overflow: hidden;
+            resize: both;
+
             position: absolute;
+            top: 50%;
+            left: 50%;
+
+            h2 {
+                font-family: "Lancelot";
+            }
+
+            .classification {
+                color: rgb(90, 90, 90);
+                font-weight: 700;
+            }
         }
     }
 
 .row-3 {
     width: 100%;
     height: 5%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #f9f9f9;
     transition: 0.3s ease-in;
 
-    position: absolute;
+    position: fixed;
     bottom: 0;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-        &:not(:hover) {
-            opacity: 0.2;
-        }
 }
