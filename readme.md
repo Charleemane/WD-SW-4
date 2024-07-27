@@ -113,5 +113,10 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| pngwing | logo pngs | trykolang.com |
+| pngwing | logo pngs | https://www.pngwing.com |
 | Create a Website With Video Background, HTML & CSS | reference code | https://youtu.be/8MgpE2DTTKA?si=TuO6dFfCz2kK6aKa |
+| Every Nomination That Frieren: Beyond Journey's End Deserved and Why | Feature 1 contents | https://www.cbr.com/crunchyroll-anime-awards-2024-frieren-deserved-nominations/ |
+| Frieren Manga Sales Doubled After the Anime Adaptation | Feature 1 contents | https://animecorner.me/frieren-manga-sales-doubled-after-the-anime-adaptation/#:~:text=In%20our%202023%20Anime%20of,the%20manga%20sales%20have%20doubled. |
+| How to create Infinite Horizontal Scroll and Hover-Pause with Pure CSS | reference code | https://medium.com/@mintpw/how-to-create-infinite-horizontal-scroll-and-hover-pause-with-pure-css-b052caa683bd |
+| 10 Reasons Anime Fans Should Be Watching Frieren | Feature 1 content | https://www.cbr.com/frieren-for-new-anime-fans/#:~:text=Although%20Frieren%20focuses%20on%20a,fans%20looking%20for%20something%20different. |
+
